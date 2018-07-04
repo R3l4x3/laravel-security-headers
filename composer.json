@@ -1,0 +1,24 @@
+{
+    "name": "r3l4x3/laravel-security-headers",
+    "description": "Security headers in Laravel application",
+    "license": "MIT",
+    "authors": [{
+        "name": "R3l4x3",
+        "email": "wilms.sebastian@gmail.com"
+    }],
+    "require": {
+        "illuminate/support": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelSecurityHeaders\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelSecurityHeaders\\LaravelSecurityHeadersServiceProvider"
+            ]
+        }
+    }
+}
